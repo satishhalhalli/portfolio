@@ -73,8 +73,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='portfolio' smooth={true} duration={500}>
-            <span className='px-4 cursor-pointer font-medium hover:scale-110 duration-75'>Portfolio</span>
+          <Link to='experience' smooth={true} duration={500}>
+            <span className='px-4 cursor-pointer font-medium hover:scale-110 duration-75'>Skills</span>
           </Link>
         </li>
         <li>

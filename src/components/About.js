@@ -3,8 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to to-black text-white'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+      {/* <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '> */}
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row' style={{ paddingTop: '50vh' }}>
+
+        <div className='pb-6'>
             <p className='text-6xl font-bold inline border-b-4 border-gray-600'>
                 About
             </p>
@@ -30,12 +32,12 @@ const About = () => {
           I am excited to leverage my skills and knowledge to contribute to meaningful projects and continue growing as a front-end developer.
          </p>
          <br/>
-         <p className='text-xl'>
+         {/* <p className='text-xl'>
          I am a dedicated and detail-oriented individual, constantly seeking opportunities to learn and improve my skills.
           I am eager to collaborate with talented teams and contribute to innovative projects that make a positive impact.
           If you have any questions or would like to discuss potential opportunities, please feel free to reach out to me.
           I'm looking forward to connecting with you!
-         </p>
+         </p> */}
         </div>
       </div>
     </div>
